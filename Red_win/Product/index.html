@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <title>首页</title>
+    <style type="text/css">
+        html, body {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            color: #393939;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<div id="home_page">
+    <header>
+        <img src="../../images/tyt_03.png" alt="">
+
+        <div class="group">
+            <input type="text" class="form-control" placeholder="请输入商品名称">
+            <a href="each_result.html"> <img src="../../images/tyt_06.png" alt=""></a>
+        </div>
+    </header>
+    <div class="head">
+        <ul>
+            <a href="sort.html?id='pop_time'">
+                <li><img src="../../images/guojia.png" alt="">
+                    <span>国家</span></li>
+            </a>
+            <a href="sort.html">
+                <li><img src="../../images/jiuju.png" alt="">
+                    <span>颜色</span></li>
+            </a>
+            <a href="sort.html">
+                <li><img src="../../images/zhonglei.png" alt="">
+                    <span>葡萄种类</span></li>
+            </a>
+            <a href="sort.html">
+                <li><img src="../../images/jiuju.png" alt="">
+                    <span>香槟·起泡</span></li>
+            </a>
+
+            <a href="sort.html">
+                <li><img src="../../images/jiaqiang.png" alt="">
+                    <span>加强型</span></li>
+            </a>
+            <a href="sort.html">
+                <li><img src="../../images/kougan.png" alt="">
+                    <span>口感</span></li>
+            </a>
+            <a href="product_list.html">
+                <li><img src="../../images/tehui.png" alt="">
+                    <span>特惠专区</span></li>
+            </a>
+            <a href="sort.html">
+                <li><img src="../../images/jiuju-08.png" alt="">
+                    <span>酒具</span></li>
+            </a>
+        </ul>
+    </div>
+
+    <div class="con">
+        <a href="recommen.html">
+            <div class="lef">
+                <a href="product_detail.html"><img src="../../images/8e66d951ef19a694fd34c7baacbe5f62.jpg" alt=""></a>
+
+                <div class="dat">
+                    <div id="timess"></div>
+                    <div id="times"></div>
+                </div>
+            </div>
+            <div class="rig">
+                <h4>王宇贝纳干红葡萄酒红葡萄酒</h4>
+
+                <p style="color:black !important;">地区：<a href="">中国</a></p>
+
+                <p>种类：<a href="">加强型</a></p>
+
+                <p>色泽：<a href="">深红</a></p>
+
+                <p>年份：<a href="">深红</a></p>
+
+                <p>酒庄：<a href="">中国的卡卡</a></p>
+
+                <p>酒精度：<a href="">深红</a></p>
+                <button><a href="product_list.html">更多</a></button>
+            </div>
+        </a>
+    </div>
+
+    <div class="tt">
+        <div>
+            <span><a href="../Article/little_tips.html" style="color: #100f0f">小贴士</a></span>
+		    <span><img onclick="collect()" id="colle" src="../../images/dhfdhfh_48.png" alt="">22</span>
+        </div>
+        <p style="text-indent: 2em;">有的人喜欢喝啤酒，冰镇过后配上下饭的湘菜，一个字，爽！有的人爱品葡萄酒，钟情那香醇后的缱绻余味会有所不同。今天，红酒百科全书将带来一些葡萄酒入门小常识，非常实用，值得收藏。</p>
+    </div>
+    <div style="height:150px;"></div>
+    <div class="fot">
+        <ul class="fot_ul">
+            <a href="javascript:void(0);">
+                <li class="public_fot unbindClick" id="home" value=1>
+                    <img src="../../images/SHOUYE.png" id="img_a" alt="">
+                    首页
+                </li>
+            </a>
+            <a href="category.html">
+                <li id="feng" class=" unbindClick" value=1>
+                    <img src="../../images/khkh_03.png" id="img_b" alt="">
+                    分类
+                </li>
+            </a><a href="buy_cart.html">
+            <li id="cart" class="unbindClick" value=1>
+                <img src="../../images/hfhfh_15.png" id="img_c" alt="">
+                购物车
+            </li>
+        </a>
+            <a href="../User/myself.html">
+                <li id="mymy" class="unbindClick" value=1>
+                    <img src="../../images/hfhfh_17.png" id="img_d" alt="">
+                    个人中心
+                </li>
+            </a>
+        </ul>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    var myDate = new Date();
+    var month = myDate.getMonth() + 1;
+    console.log(month + "");
+    var x = myDate.getFullYear() + "-" + month;
+    var ss = myDate.getDate();
+    document.getElementById("timess").innerHTML = x;
+    document.getElementById("times").innerHTML = ss;
+    console.log(x + ss);
+    //点击收藏
+    var onOff=true;
+    function collect(){
+        var colle=document.getElementById("colle");
+        if(onOff){
+            colle.src="../../images/jfgjgfjs_05.png";
+            onOff=false;
+        }else{
+            colle.src="../../images/dhfdhfh_48.png";
+            onOff=true;
+        }
+    }
+
+</script>
+</html>

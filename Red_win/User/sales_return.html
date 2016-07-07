@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>已支付</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <script rel="script" type="text/javascript" src="../../js/jquery-1.10.2.min.js"></script>
+    <script rel="script" type="text/javascript" src="../../js/bootstrap.min.js"></script>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<nav class="nav" id="nav_bar">
+    <ul class="list-inline">
+        <a href="product_pay_off.html">
+            <li class="col">
+                全部
+            </li>
+        </a>
+        <a href="product_pay_off.html">
+            <li class="col">
+                待支付
+            </li>
+        </a>
+        <a href="product_pay_off.html">
+            <li class="col">
+                已支付
+            </li>
+        </a>
+        <a href="product.html">
+            <li class="col">
+                待评价
+            </li>
+        </a>
+        <a href="product.html">
+            <li class="col pub_li">
+                退货
+            </li>
+        </a>
+    </ul>
+</nav>
+<div id="productes">
+    <div class="assess">
+        <div class="hed"><img src="../../images/hdshdshdsh_03.png" alt="">退货
+        </div>
+        <div class="bot">
+            <div class="lef_tu">
+                <img src="../../images/hfhfh_05.png" alt="">
+            </div>
+            <div class="rig_text">
+                <h5><a href="">法国原装井口的红酒红官方</a></h5>
+                <p><a href="">ghgghdsgdsgidsgdisgdkjsghdsklggdgdsgsdsgdgdsg gedgd</a></p>
+                <div class="mone">
+                    <span><a href="">750ml</a></span>
+                    <span><a href="">单支</a></span>
+                    <span style="display:block; color:black">价格<a href="" style="color:red;">￥789</a></span>
+                </div>
+
+                <div class="logis">
+                    <a href="">
+                        <div id="delet">物流</div>
+                    </a>
+                    <a href="">
+                        <div id="delet">收货</div>
+                    </a><a href="product_refund.html">
+                    <div id="delet">退款</div>
+                </a>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="assess">
+            <div class="hed"><img src="../../images/hdshdshdsh_03.png" alt="">退货
+
+            </div>
+            <div class="bot">
+                <div class="lef_tu">
+                    <img src="../../images/hfhfh_05.png" alt="">
+                </div>
+                <div class="rig_text">
+                    <h5><a href="">激光打黄瓜山东干</a></h5>
+
+                    <p><a href="">ghgghdsgdsgidsgdisgdkjsghdsklggdgdsgsdsgdgdsg gedgd</a></p>
+
+                    <div class="mone">
+                        <span><a href="">750ml</a></span>
+                        <span><a href="">单支</a></span>
+                        <span style="display:block; color:black">价格<a href="" style="color:red;">￥789</a></span>
+                    </div>
+                    <div class="logis">
+                        <a href="">
+                            <div id="delet">物流</div>
+                        </a>
+                        <a href="">
+                            <div id="delet">收货</div>
+                        </a><a href="product_refund.html">
+                        <div id="delet">退款</div>
+                    </a>
+
+                    </div>
+                    <!--  <a href=""><div id="delet">物流</div ></a> <a href=""><div id="delet"  >退货</div></a><a href=""><div id="delet"  >收货</div></a> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function ($) {
+        $(".list-inline a>li").click(function () {
+            $(this).addClass('pub_li').parent().siblings().children().removeClass('pub_li');
+        });
+
+    });
+</script>
+</html>
