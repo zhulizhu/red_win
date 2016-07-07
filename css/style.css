@@ -175,7 +175,7 @@ h5 a {
 #home_page .con .lef .dat #timess {
     width: 50px;
     height: 25px;
-    background-color: red;
+    background-color: #ff0026;
     border: 1px solid #eeeeee;;
     color: white;
     line-height: 25px;
@@ -191,7 +191,7 @@ h5 a {
     border: 1px solid #eeeeee;;
     border-radius: 1px 1px 10px 10px;
     background-color: white;
-    color: red;
+    color: #ff0026;
     text-align: center;
     line-height: 35px;
     top: 0;
@@ -206,7 +206,7 @@ h5 a {
 }
 
 #home_page .con .rig a {
-    color: #ff0029;
+    color: #ff0026;
 }
 
 #home_page .con .rig p {
@@ -224,12 +224,12 @@ h5 a {
 #home_page .con .rig > button {
     width: 50px;
     height: 25px;
-    border: 1px solid red;
+    border: 1px solid #ff0026;
     border-radius: 7px;
     float: right;
     text-align: center;
     line-height: 25px;
-    color: red;
+    color: #ff0026;
     background-color: white;
 
 }
@@ -296,7 +296,7 @@ a {
 
 .pub_li {
     border-bottom: 1px solid red;
-    color: red !important;
+    color: #ff0026 !important;
 }
 
 /* over */
@@ -387,14 +387,14 @@ a {
 }
 
 .bot .rig_text p:nth-of-type(2) {
-    color: red !important;
+    color: #ff0026 !important;
     position: absolute;
     bottom: 19px;
 
 }
 
 .bot .rig_text p:nth-of-type(2) a {
-    color: red !important;
+    color: #ff0026 !important;
 }
 
 .bot .rig_text .mone {
@@ -407,22 +407,22 @@ a {
 }
 
 .bot .rig_text .mone span a {
-    color: red;
+    color: #ff0026;
 }
 
 .bot .rig_text .mone span:nth-of-type(1) {
-    color: red;
+    color: #ff0026;
     width: 46px;
     height: 25px;
     float: left;
 }
 
 .bot .rig_text .mone span:nth-of-type(2) {
-    color: red;
+    color: #ff0026;
     width: 37px;
     height: 25px;
     display: block;
-    border: 1px solid red;
+    border: 1px solid #ff0026;
     text-align: center;
     line-height: 25px;
     float: left;
@@ -438,47 +438,47 @@ a {
 .bot .rig_text .logis #delet {
     width: 36px;
     height: 30px;
-    border: 1px solid red;
+    border: 1px solid #ff0026;
     line-height: 30px;
     text-align: center;
     float: left;
     margin: 0 2px;
-    color: red;
+    color: #ff0026;
 }
 
 .bot .rig_text .logis #delet a {
-    color: red;
+    color: #ff0026;
     display: block;
 }
 
 #productes .assess #btn_asses {
     width: 60px;
     height: 30px;
-    border: 1px solid red;
+    border: 1px solid #ff0026;
     line-height: 30px;
     text-align: center;
 
-    color: red;
+    color: #ff0026;
     position: absolute;
     right: 5px;
     bottom: 15px;
 }
 
 #productes .assess #btn_asses a {
-    color: red;
+    color: #ff0026;
     display: block;
 }
 
 #productes .assess .rig_text #pay_mony {
     width: 48px;
     height: 30px;
-    border: 1px solid red;
+    border: 1px solid #ff0026;
     line-height: 30px;
     text-align: center;
     float: right;
     color: white;
     margin: 0 2px;
-    background-color: red;
+    background-color: #ff0026;
 }
 
 #productes .assess .rig_text #pay_mony a {
@@ -612,15 +612,15 @@ a {
 }
 
 #my_buycart section > div > div:nth-child(3) > span a {
-    color: red;
+    color: #ff0026;
 }
 
 #my_buycart section > div > div:nth-child(3) > span:nth-of-type(1) {
     padding: 1px 5px;
     display: block;
-    border: 1px solid red;
+    border: 1px solid #ff0026;
 
-    color: red;
+    color: #ff0026;
     float: left;
     margin: 5px;
 }
@@ -628,16 +628,16 @@ a {
 #my_buycart section > div > div:nth-child(3) > span:nth-of-type(2) {
     padding: 1px 5px;
     display: block;
-    border: 1px solid red;
+    border: 1px solid #ff0026;
 
-    color: red;
+    color: #ff0026;
     float: left;
     margin: 5px;
 }
 
 #my_buycart section > div > div:nth-child(3) > span:nth-of-type(3) {
     padding-left: 4%;
-    color: red;
+    color: #ff0026;
     position: absolute;
     bottom: 14px;
     left: 5px;
@@ -646,7 +646,7 @@ a {
 
 #my_buycart section > div > div:nth-child(3) > span:nth-of-type(4) {
     float: right;
-    color: red;
+    color: #ff0026;
     font-size: 16px;
     position: absolute;
     bottom: 14px;
@@ -694,7 +694,7 @@ a {
     width: 30%;
     height: 50px;
 
-    background: #d62223;
+    background: #ff0026;
 }
 
 #my_buycart .foot > div:nth-child(3) > a {
@@ -984,13 +984,13 @@ a {
 }
 
 #myself .info ul li div:nth-child(2) > p:nth-child(2) {
-    color: red;
+    color: #ff0026;
     margin-top: -15px;
     text-align: center;
 }
 
 #myself .info ul li div:nth-child(2) > p:nth-child(2) a {
-    color: red;
+    color: #ff0026;
     font-weight: bold;
 
 }
@@ -1134,7 +1134,7 @@ a {
     width: 100%;
     height: 50px;
     line-height: 60px;
-    color: #ff0029;
+    color: #ff0026;
     border-bottom: 1px solid #eeeeee;
     padding: 2px 10px 2px 10px;
     font-size: 16px;
@@ -1210,7 +1210,7 @@ a {
 
 #product_refund .plo .much .jia {
     color: white;
-    background: red;
+    background: #ff0026;
     border-radius: 50%;
 }
 
@@ -1224,7 +1224,7 @@ a {
 }
 
 #product_refund p a {
-    color: red;
+    color: #ff0026;
 }
 
 #product_refund footer {
@@ -1235,7 +1235,7 @@ a {
     position: absolute;
     color: white;
     bottom: 0;
-    background-color: #ff0029;
+    background-color: #ff0026;
 
 }
 
@@ -1369,7 +1369,7 @@ a {
 
 #mymoney .rice div:nth-child(3) {
     font-size: 6em;
-    color: red;
+    color: #ff0026;
 
 }
 
@@ -1390,7 +1390,7 @@ a {
 }
 
 #mymoney .rice div:nth-child(4) a {
-    color: red;
+    color: #ff0026;
 }
 
 #mymoney .now {
@@ -1441,7 +1441,7 @@ a {
     color: black;
     height: 60px;
     line-height: 60px;
-    border-top: 1px solid red;
+    border-top: 1px solid #ff0026;
     bottom: 0;
     position: fixed;
     background-color: white;
@@ -1451,7 +1451,7 @@ a {
     float: left;
     text-align: center;
     width: 49%;
-    color: red;
+    color: #ff0026;
 }
 
 /* 我的钱包over */
@@ -1494,14 +1494,14 @@ a {
 #sort .cate div:nth-child(1) {
     width: 110px;
     line-height: 53px;
-    color: red;
+    color: #ff0026;
     border-right: 1px solid #e5e5e5;
     position: relative;
     float: left;
 }
 
 #sort .cate div:nth-child(1) a {
-    color: red;
+    color: #ff0026;
 }
 
 #sort .cate input {
@@ -1578,7 +1578,7 @@ a:visited {
 
 /* 点击左边的li 出现的style */
 .public_pop {
-    color: red !important;
+    color: #ff0026 !important;
     background-color: #f2f2f2;
 
 }
@@ -1607,7 +1607,7 @@ a:visited {
 }
 
 #sort .public_li {
-    color: red;
+    color: #ff0026;
 }
 
 #sort .pro {
@@ -1648,15 +1648,15 @@ a:visited {
     width: 55px;
     height: 30px;
     text-align: center;
-    border: 1px solid red;
+    border: 1px solid #ff0026;
     line-height: 30px;
     margin: 3% 2%;
-    color: red;
+    color: #ff0026;
     float: left;
 }
 
 #sort .pro .money a {
-    color: red;
+    color: #ff0026;
 }
 
 /*  最底部导航栏*/
@@ -1686,7 +1686,7 @@ a:visited {
 }
 
 .public_fot {
-    background-color: #ff0029 !important;
+    background-color: #ff0026 !important;
     color: #ffffff !important;
 }
 
@@ -1718,7 +1718,7 @@ a:visited {
 }
 
 #sort .pop_div > a:hover {
-    color: red;
+    color: #ff0026;
 }
 
 #sort .pop_time {
@@ -1797,7 +1797,7 @@ a:visited {
 
 #product_detail .tit span:nth-of-type(1) a {
     text-align: center;
-    color: #ff0029 !important;
+    color: #ff0026 !important;
     font-weight: bold;
 }
 
@@ -1824,7 +1824,7 @@ a:visited {
 
 #product_detail .lei p {
     margin-left: 19px;
-    color: red;
+    color: #ff0026;
     height: 50px;
     overflow: hidden;
     font-weight: bold;
@@ -1837,7 +1837,7 @@ a:visited {
     height: 20px;
     overflow: hidden;
     margin-left: 20px;
-    color: #ff0029;
+    color: #ff0026;
     font-weight: bold;
 }
 
@@ -1877,7 +1877,7 @@ a:visited {
 
 #product_detail .pop_buycart .detil > div:nth-child(1) > span:nth-of-type(1) {
     display: block;
-    color: red;
+    color: #ff0026;
     font-size: 20px;
     width: 100px;
     height: 30px;
@@ -1932,7 +1932,7 @@ a:visited {
 #product_detail .pop_buycart footer {
     width: 100%;
     height: 50px;
-    background-color: red;
+    background-color: #ff0026;
     text-align: center;
     line-height: 50px;
     color: white;
@@ -1962,8 +1962,8 @@ a:visited {
     width: 150px;
     height: 30px;
     background-color: white;
-    color: #ff0029;
-    border: 1px solid #ff0029;
+    color: #ff0026;
+    border: 1px solid #ff0026;
     text-align: center;
     line-height: 30px;
     margin-left: 30%;
@@ -2024,7 +2024,7 @@ a:visited {
 }
 
 #product_detail .bom #pay_money {
-    background-color: red;
+    background-color: #ff0026;
     color: white;
 }
 
@@ -2168,7 +2168,7 @@ a:visited {
 
 #product_detail .much .jia {
     color: white;
-    background: red;
+    background: #ff0026;
     border-radius: 50%;
 }
 
@@ -2253,7 +2253,7 @@ a:visited {
     height: 48px;
     text-align: center;
     line-height: 48px;
-    background-color: #ff0029;
+    background-color: #ff0026;
     color: #ffffff;
     position: absolute;
     bottom: 0;
@@ -2294,7 +2294,7 @@ a:visited {
     display: block;
     width: 70px;
     height: 50px;
-    background-color: red;
+    background-color: #ff0026;
     color: white;
     float: right;
     text-align: center;
@@ -2336,7 +2336,7 @@ a:visited {
 
 #pay_submit .addes_name .default .icon {
     border-radius: 50%;
-    background-color: red;
+    background-color: #ff0026;
     width: 6px;
     height: 6px;
     display: block;
@@ -2392,7 +2392,7 @@ a:visited {
 
 #pay_submit .jia {
     color: white;
-    background: red;
+    background: #ff0026;
     border-radius: 50%;
     line-height: 22px;
 }
@@ -2443,7 +2443,7 @@ a:visited {
     float: right;
     width: 25px;
     height: 25px;
-    color: red;
+    color: #ff0026;
     vertical-align: middle;
     background-color: white;
     margin-top: 20px;
@@ -2685,7 +2685,7 @@ a:visited {
 }
 
 #recommen .to_pay div > span:nth-child(1) a {
-    color: red;
+    color: #ff0026;
 }
 
 #recommen .to_pay div > span:nth-child(2) {
@@ -2693,8 +2693,8 @@ a:visited {
     float: right;
     width: 85px;
     height: 30px;
-    border: 1px solid red;
-    color: red;
+    border: 1px solid #ff0026;
+    color: #ff0026;
     text-align: center;
     line-height: 30px;
     margin: 10px 20px 5px 10px;
@@ -2708,7 +2708,7 @@ a:visited {
     text-align: center;
     line-height: 30px;
     color: white;
-    background-color: red;
+    background-color: #ff0026;
     position: absolute;
     right: 120px;
     top: 10px;
@@ -2817,14 +2817,14 @@ a:visited {
 #category .cate div:nth-child(1) {
     width: 110px;
     line-height: 53px;
-    color: red;
+    color: #ff0026;
     border-right: 1px solid #e5e5e5;
     position: relative;
     float: left;
 }
 
 #category .cate div:nth-child(1) a {
-    color: red;
+    color: #ff0026;
 
 }
 
@@ -2909,7 +2909,7 @@ a:visited {
 
 /* 点击左边的li 出现的style */
 .public_pop {
-    color: red !important;
+    color: #ff0026 !important;
     background-color: #f2f2f2;
 }
 
@@ -2968,7 +2968,7 @@ a:visited {
 }
 
 #product_list .pro_li > div:nth-child(2) > p > a {
-    color: red;
+    color: #ff0026;
 }
 
 #product_list .pro_li > div:nth-child(2) > a > span {
@@ -2978,9 +2978,9 @@ a:visited {
     height: 30px;
     text-align: center;
     line-height: 30px;
-    border: 1px solid red;
+    border: 1px solid #ff0026;
     float: right;
-    color: red;
+    color: #ff0026;
 }
 
 /* 商品列表over */
@@ -3053,7 +3053,7 @@ a:visited {
     height: 50px;
     text-align: center;
     line-height: 50px;
-    background-color: red;
+    background-color: #ff0026;
     color: #ffffff;
     position: absolute;
     bottom: 0;
@@ -3153,7 +3153,7 @@ a:visited {
 }
 
 #add_cart .cart_bottom .price .pri_tex .yuan {
-    color: #ff0029;
+    color: #ff0026;
     margin-bottom: 10px;
 }
 
@@ -3261,7 +3261,7 @@ a:visited {
 
 #add_cart .cart_bottom .much .jia {
     color: white;
-    background: red;
+    background: #ff0026;
     border-radius: 50%;
 }
 
@@ -3270,7 +3270,7 @@ a:visited {
     height: 48px;
     text-align: center;
     line-height: 48px;
-    background-color: #ff0029;
+    background-color: #ff0026;
     color: #ffffff;
     position: absolute;
     bottom: 0;
@@ -3282,11 +3282,11 @@ a:visited {
 /* 收货地址over */
 @media screen and (max-width: 320px) {
     #productes .assess .bot .rig_text .mone span:nth-of-type(2) {
-        color: red;
+        color: #ff0026;
         width: 37px;
         height: 25px;
         display: block;
-        border: 1px solid red;
+        border: 1px solid #ff0029;
         text-align: center;
         line-height: 25px;
         float: left;
