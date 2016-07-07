@@ -532,10 +532,10 @@ a {
     overflow: hidden;
     color: #444;
     background: #fff;
-    border: 3px solid #ddd8ce;
+    border: 0 solid #ddd8ce !important;
 }
 
-#my_buycart section > div:last-child() {
+#my_buycart section > div:last-child {
     margin-bottom: 8%;
 }
 
@@ -835,8 +835,8 @@ a {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    margin-top: -8px;
-    margin-left: 3px;
+    margin-top: -1px;
+    margin-left: 2px;
     float: left;
     z-index: -999;
 }
@@ -852,6 +852,17 @@ a {
     line-height: 30px;
 }
 
+#myself .info .two .sex {
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#myself .info .two .open {
+    width: 25px;
+    height: 30px;
+    margin:1px 10px 1px 10px;
+}
+
 #myself .info .two span:nth-child(2) {
 
     color: black;
@@ -859,6 +870,7 @@ a {
 
 #myself .info .two span:nth-child(2) a {
     color: black;
+    font-weight: bold;
 }
 
 #myself .info .two span:nth-child(3) a {
@@ -869,6 +881,35 @@ a {
     width: 72%;
     margin-right: 7px;
     float: left;
+    margin-top: 8px;
+}
+
+#myself .head {
+    height: 150px;
+    background: url('../images/bg_02.png');
+    background-size: 100% 100%;
+    z-index: 101;
+}
+#myself .head .set{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 3%;
+    top: 8px;
+}
+#myself .head img {
+    width: 100%;
+    height: 150px;
+}
+
+#myself .bg-sp {
+    background: url("../images/bcbcx_03.png");
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+    color: white;
+    line-height: 35px;
+    text-align: center;
 }
 
 #myself .info .mage span:nth-child(1) {
@@ -890,12 +931,12 @@ a {
 #myself .info .mage span:nth-child(2) {
     color: #999999;
     overflow: hidden;
-    width: 110px;
+    width: 114px;
     height: 20px;
     display: block;
     float: left;
     font-size: 10px;
-    margin: 5px -1px 1px -13px;
+    margin: 5px -1px 1px 12px;
 }
 
 /*3个li*/
@@ -942,6 +983,7 @@ a {
 
 #myself .info ul li div:nth-child(2) > p:nth-child(2) a {
     color: red;
+    font-weight: bold;
 
 }
 
@@ -961,11 +1003,35 @@ a {
     padding-left: 15px;
 }
 
+#myself .dingdan .tit a {
+    text-decoration: none;
+    color: #333333;
+}
+
+#myself .dingdan .tit a span {
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+#myself .dingdan .tit a div img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 4px;
+}
+
 #myself .dingdan ul {
     height: 63px;
     margin-top: 10px;
     /* line-height: 60px; */
     padding: 0;
+}
+
+#myself .dingdan ul a {
+    text-decoration: none;
 }
 
 #myself .dingdan ul li {
@@ -1014,19 +1080,19 @@ a {
 
 #myself .my_list .list span:nth-child(2) {
     font-size: 16px;
-    color: black;
+    color: #333;
     float: left;
     margin-left: 20px;
     line-height: 50px;
+    font-weight: bold;
 }
 
 #myself .my_list .list span:nth-child(3) {
     float: right;
     margin-right: 15px;
     line-height: 50px;
-
     font-size: 25px;
-    color: #E5E5E5;
+    color: #969696;
 }
 
 /*个人资料over */
@@ -1038,11 +1104,13 @@ a {
     padding: 0;
     position: relative;
 }
-#product_refund textarea{
+
+#product_refund textarea {
     width: 94%;
     margin-left: 3%;
     border: 1px solid #d0d0d0;
 }
+
 #product_refund .apply {
     width: 100%;
     height: 50px;
@@ -1072,76 +1140,18 @@ a {
     border-top: 1px solid #d0d0d0;
     margin-top: 18px;
 }
-
-/*#product_refund .plo > div:nth-child(1) {*/
-    /*margin: 5px 15px;*/
-    /*width: 120px;*/
-    /*height: 120px;*/
-    /*/!* border-style: dashed;  *!/*/
-    /*float: left;*/
-    /*border: 1px dashed #666666;*/
-/*}*/
-
-/*/!*#product_refund .plo>div:nth-child(1) a{*/
-	/*padding: 4px 10px;*/
-	/*height: 100px;*/
-	/*line-height: 100px;*/
-	/*position: relative;*/
-	/*cursor: pointer;*/
-	/*color: #888;*/
-	/*background: #fafafa;*/
-	/*border: 1px solid #ddd;*/
-	/*border-radius: 4px;*/
-	/*overflow: hidden;*/
-	/*display: inline-block;*/
-	/**display: inline;*/
-	/**zoom: 1*/
-/*}*!/*/
-
-/*#product_refund .plo > div:nth-child(1) .fileId {*/
-
-    /*position: relative;*/
-    /*display: inline-block;*/
-
-    /*border-radius: 4px;*/
-    /*padding: 18px;*/
-    /*overflow: hidden;*/
-    /*/!*color: #1E88C7;*!/*/
-    /*text-decoration: none;*/
-    /*text-indent: 0;*/
-    /*text-align: center;*/
-    /*line-height: 100px;*/
-    /*border: 1px dashed #666666;*/
-/*}*/
-
-/*#product_refund .plo > div:nth-child(1) .fileId input {*/
-    /*position: absolute;*/
-    /*font-size: 100px;*/
-    /*right: 0;*/
-    /*border: 1px dashed #666666;*/
-    /*top: 0;*/
-    /*opacity: 0;*/
-/*}*/
-#product_refund .plo p{
+#product_refund .plo p {
     height: 46px;
     width: 94%;
     margin-left: 3%;
     line-height: 46px;
-    color:#333333;
+    color: #333333;
     font-weight: bold;
     border-bottom: 1px solid #d0d0d0;
 }
-#product_refund .plo p span{
+#product_refund .plo p span {
     color: #a2a2a2;
 }
-/*#product_refund .plo > div:nth-child(1) > a > img {*/
-    /*width: 120px;*/
-    /*height: 120px;*/
-/*}*/
-
-/*#product_refund .plo div:nth-child(1) span {*/
-    /*float: left;*/
-/*}*/
 #product_refund .plo .much {
     width: 94%;
     height: 46px;
@@ -1184,6 +1194,7 @@ a {
     background: red;
     border-radius: 50%;
 }
+
 #product_refund .refund {
     float: right;
     color: black;
@@ -1432,21 +1443,29 @@ a {
     margin: 0;
     padding: 0;
 }
-#sort header{
+
+#sort header {
     margin-top: 14px;
     margin-bottom: 14px;
     overflow: hidden;
 }
-#sort header input{
-    width: 354px;height: 32px;float: left;margin-left: 8px;border: 1px solid #242120;border-radius: 4px;
-}
-#sort header img{
-    width: 32px;height: 32px;float: right;margin-right: 8px;display: block
-}
-/*#sort header{width: 100%; height: 63px; border-bottom: 1px solid #e5e5e5; } #sort header input{
-	width: 83%; height: 40px; margin: 15px 3px 1px 10px; }
-#sort header img{width: 32px;height: 36px; }*/
 
+#sort header input {
+    width: 354px;
+    height: 32px;
+    float: left;
+    margin-left: 8px;
+    border: 1px solid #242120;
+    border-radius: 4px;
+}
+
+#sort header img {
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-right: 8px;
+    display: block
+}
 #sort .cate {
     width: 100%;
     height: 55px;
@@ -1957,17 +1976,19 @@ a:visited {
     text-align: center;
     line-height: 60px;
     position: fixed;
-    right:10px;
+    right: 10px;
     bottom: 0;
     background-color: white;
 }
-#product_detail .top{
+
+#product_detail .top {
     position: fixed;
-    right:10px;
+    right: 10px;
     bottom: 200px;
     width: 50px;
     height: 50px;
 }
+
 #product_detail .bom span {
     width: 100px;
     display: block;
@@ -2265,9 +2286,11 @@ a:visited {
     padding: 1px 10px 1px 10px;
     overflow: hidden;
 }
-#pay_submit .addes_name a{
+
+#pay_submit .addes_name a {
     color: #242120;
 }
+
 #pay_submit .addes_name p {
     padding: 10px 1px 1px 1px;
     margin-bottom: 10px;
@@ -2277,12 +2300,14 @@ a:visited {
     width: 20px;
     height: 20px;
 }
-#pay_submit .addes_name .default{
+
+#pay_submit .addes_name .default {
     float: right;
     margin-bottom: 10px;
     overflow: hidden;
 }
-#pay_submit .addes_name .default .icon{
+
+#pay_submit .addes_name .default .icon {
     border-radius: 50%;
     background-color: red;
     width: 6px;
@@ -2291,14 +2316,17 @@ a:visited {
     float: left;
     margin: 6px 4px;
 }
-#pay_submit .addes_name .default .def_tex{
+
+#pay_submit .addes_name .default .def_tex {
     float: left;
 }
-#pay_submit .addes_name .default .def_tex img{
+
+#pay_submit .addes_name .default .def_tex img {
     width: 16px;
     height: auto;
     margin-top: 2px;
 }
+
 #pay_submit .much {
     width: 100%;
     height: 70px;
@@ -2381,7 +2409,7 @@ a:visited {
     border-bottom: 1px solid #e5e5e5;
     padding: 0 10px 0 10px;
     font-size: 16px;
-    font-family: "微软雅黑";
+    font-family: 'Consolas', "微软雅黑";
 }
 
 #pay_submit .red_packet > input {
@@ -2437,10 +2465,12 @@ a:visited {
     -moz-box-shadow: 11px 11px 19px #dcdcdc;
     box-shadow: 11px 11px 19px #dcdcdc;
 }
-#little_tips .source{
+
+#little_tips .source {
     text-indent: 0;
     margin-bottom: 34px;
 }
+
 #little_tips .lead img {
     width: 160px;
     height: 30px;
@@ -2455,12 +2485,14 @@ a:visited {
 
 #little_tips p {
     margin: 10px 10px 25px 10px;
-    text-indent:2em ;
+    text-indent: 2em;
     color: #747474;
 }
-#little_tips .pic{
+
+#little_tips .pic {
     margin-bottom: 25px;
 }
+
 /* 红酒小贴士over */
 /* 红酒推荐begin */
 #recommen {
@@ -2568,7 +2600,7 @@ a:visited {
 }
 
 .feed p {
-    font-family: "Microsoft YaHei", 'Georgia', Times, Times New Roman, serif;
+    font-family: Consolas, '微软雅黑';
     font-size: 25px;
 }
 
@@ -2580,7 +2612,7 @@ a:visited {
 }
 
 .likeCount {
-    font-family: Consloas, Times, Times New Roman, serif;
+    font-family: Consolas, '微软雅黑';
     z-index: 100;
     margin-top: 32px;
     margin-left: 68px;
@@ -2836,24 +2868,27 @@ a:visited {
     width: 55%;
     height: 100%;
     position: absolute;
-    left:45%;
-    top:0;
+    left: 45%;
+    top: 0;
     border-right: 1px solid #e5e5e5;
     background-color: #f2f2f2;
     text-align: center;
     overflow: hidden;
 }
-#category .pop_cate div >.price,#category .pop_cate div >.box,#category .pop_cate div >.choose,#category .pop_cate div >.place,#category .pop_cate div >.variety,#category .pop_cate div >.grape{
-display: none;
+
+#category .pop_cate div > .price, #category .pop_cate div > .box, #category .pop_cate div > .choose, #category .pop_cate div > .place, #category .pop_cate div > .variety, #category .pop_cate div > .grape {
+    display: none;
 }
-    /* 点击左边的li 出现的style */
+
+/* 点击左边的li 出现的style */
 .public_pop {
     color: red !important;
     background-color: #f2f2f2;
 }
-.public_blo{
-     display: block;
- }
+
+.public_blo {
+    display: block;
+}
 
 /* 全部分类over */
 /* 商品列表begin */
@@ -2996,35 +3031,41 @@ display: none;
     position: absolute;
     bottom: 0;
 }
+
 /*优惠券page*/
-#discount{
+#discount {
     width: 100%;
     height: auto;
-    margin:auto;
+    margin: auto;
 }
-#discount img{
+
+#discount img {
     width: 94%;
     height: auto;
-    margin:80px 3%;
+    margin: 80px 3%;
 }
+
 /*加入购物车page*/
-.add{
+.add {
     background-color: white;
     background-image: none;
 }
-#add_cart{
+
+#add_cart {
     width: 100%;
     height: auto;
-    margin:auto;
+    margin: auto;
 
 }
-#add_cart .banner{
+
+#add_cart .banner {
     width: 100%;
     height: 200px;
     background: url("../images/hfjrjrye_02.png") no-repeat;
     background-size: 100%;
 }
-#add_cart .banner_opc{
+
+#add_cart .banner_opc {
     width: 100%;
     height: 200px;
     position: absolute;
@@ -3032,43 +3073,50 @@ display: none;
     top: 0;
     background: rgba(5, 5, 5, 0.68);
 }
-#add_cart .cart_bottom{
+
+#add_cart .cart_bottom {
     width: 94%;
     margin-left: 3%;
     margin-top: -20px;
 }
-#add_cart .cart_bottom .price{
+
+#add_cart .cart_bottom .price {
     height: 14%;
     position: relative;
 }
-#add_cart .cart_bottom .price .pri_pic{
+
+#add_cart .cart_bottom .price .pri_pic {
     float: left;
     width: 35%;
     height: auto;
     position: absolute;
-    top:-20px;
+    top: -20px;
 }
-#add_cart .cart_bottom .price .pri_pic img{
+
+#add_cart .cart_bottom .price .pri_pic img {
     width: 100%;
     height: 100%;
-    border:1px solid white;
+    border: 1px solid white;
     border-radius: 4px;
     margin-top: -8%;
     box-shadow: 2px 2px 2px #9d9c9c;
 }
-#add_cart .cart_bottom .price .pri_tex{
+
+#add_cart .cart_bottom .price .pri_tex {
     float: left;
     width: 65%;
     height: 80%;
     margin-left: 35%;
 
 }
-#add_cart .cart_bottom .price .pri_tex a{
+
+#add_cart .cart_bottom .price .pri_tex a {
     text-decoration: none;
     display: block;
     text-align: right;
 }
-#add_cart .cart_bottom .price .pri_tex span{
+
+#add_cart .cart_bottom .price .pri_tex span {
     display: block;
     text-align: left;
     margin-left: 25px;
@@ -3076,32 +3124,38 @@ display: none;
     color: #333333;
     font-weight: bold;
 }
-#add_cart .cart_bottom .price .pri_tex .yuan{
+
+#add_cart .cart_bottom .price .pri_tex .yuan {
     color: #ff0029;
     margin-bottom: 10px;
 }
-#add_cart .cart_bottom .price .pri_tex span img{
+
+#add_cart .cart_bottom .price .pri_tex span img {
     margin-right: 6px;
 }
-#add_cart .cart_bottom .price .pri_tex a img{
+
+#add_cart .cart_bottom .price .pri_tex a img {
     width: 24px;
     height: auto;
 
 }
-#add_cart .cart_bottom .distribution{
+
+#add_cart .cart_bottom .distribution {
     color: #333333;
     font-weight: bold;
     margin-left: 5px;
     margin-top: 20px;
     margin-bottom: 14px;
 }
-#add_cart .cart_bottom .address{
+
+#add_cart .cart_bottom .address {
     height: 40px;
     width: 98%;
     position: relative;
     margin-bottom: 24px;
 }
-#add_cart .cart_bottom .address input{
+
+#add_cart .cart_bottom .address input {
     border: 1px solid #c2c2c2;
     border-radius: 6px;
     height: 38px;
@@ -3111,31 +3165,37 @@ display: none;
     text-indent: 1em;
     font-weight: bold;
 }
-#add_cart .cart_bottom .address input.placeholder{
+
+#add_cart .cart_bottom .address input.placeholder {
     color: #666;
 }
-#add_cart .cart_bottom .address span{
-position: absolute;
+
+#add_cart .cart_bottom .address span {
+    position: absolute;
     right: 0;
     top: 10px;
     width: 90px;
     overflow: hidden;
 }
-#add_cart .cart_bottom .address span a{
+
+#add_cart .cart_bottom .address span a {
     text-decoration: none;
     border-bottom: none;
     display: block;
     float: right;
     margin-right: 12px;
 }
-#add_cart .cart_bottom .address span div{
+
+#add_cart .cart_bottom .address span div {
     float: left;
     color: #999999;
 }
-#add_cart .cart_bottom .address span a img{
+
+#add_cart .cart_bottom .address span a img {
     height: 18px;
     width: 18px;
 }
+
 #add_cart .cart_bottom .much {
     width: 100%;
     height: 60px;
@@ -3177,7 +3237,8 @@ position: absolute;
     background: red;
     border-radius: 50%;
 }
-#add_cart footer a{
+
+#add_cart footer a {
     width: 100%;
     height: 48px;
     text-align: center;
@@ -3190,8 +3251,9 @@ position: absolute;
     font-size: 16px;
     text-decoration: none;
 }
+
 /* 收货地址over */
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
     #productes .assess .bot .rig_text .mone span:nth-of-type(2) {
         color: red;
         width: 37px;
@@ -3203,72 +3265,103 @@ position: absolute;
         float: left;
     }
 
-    @media screen and (min-width: 360px) {
-
+    #myself .info .mage span:nth-child(2) {
+        color: #999999;
+        overflow: hidden;
+        width: 120px;
+        height: 20px;
+        display: block;
+        float: left;
+        font-size: 12px;
+        margin: 5px -1px 1px -13px;
     }
-    @media screen and (min-width: 375px) {
-        /*#productes .assess .rig_text #delet {
-            width: 47px; height: 30px; border: 1px solid red; line-height: 30px; text-align: center; float: left; margin: 20px 1px 0px 7px; color: red; }*/
-        #productes .assess .bot .rig_text {
-            margin: 5px 1px 1px 5px;
-            width: 68%;
-            float: left;
-        }
 
-        #myinfo .tou {
-            width: 70px;
-            height: 70px;
-            border: 1px solid white;
-            border-radius: 50%;
-            margin: 30px 10px 10px 42%;
-            position: absolute;
-        }
-
-        #sort .pro {
-            height: 180px;
-            margin: 3% 3% 3% 5%;
-            width: 155px;
-            float: left;
-        }
-
-        #sort .pro .top_tu {
-            width: 140px;
-            height: 130px;
-            border: 1px solid #e5e5e5;
-            margin: 5px;
-        }
-
-        #sort .cate input {
-            width: 57%;
-            height: 40px;
-            text-indent: 10px;
-            border-radius: 30px;
-            margin: 7px;
-            color: black;
-        }
+    #myself .bg-sp {
+        background: url("../images/bcbcx_03.png");
+        width: 30px;
+        height: 30px;
+        background-size: 100% 100%;
+        color: white;
+        line-height: 35px;
+        text-align: center;
     }
-    @media screen and (min-width: 414px) {
-        #productes .bot .rig_text {
-            margin: 5px 1px 1px 5px;
-            width: 71%;
-            float: left;
-        }
 
-        #myinfo .tou {
-            width: 70px;
-            height: 70px;
-            border: 1px solid white;
-            border-radius: 50%;
-            margin: 30px 10px 10px 43%;
-            position: absolute;
-        }
-
-        #sort .pro {
-            height: 180px;
-            margin: 5px 4px 5px 4px;
-            width: 130px;
-        }
+    #myself .info .two .sex {
+        margin-left: 8px;
+        font-size: 16px;
+        font-weight: bold;
     }
+    #myself .info .two .open {
+        width: 25px;
+        height: 30px;
+        margin:1px 4px 1px 10px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    /*#productes .assess .rig_text #delet {
+        width: 47px; height: 30px; border: 1px solid red; line-height: 30px; text-align: center; float: left; margin: 20px 1px 0px 7px; color: red; }*/
+    #productes .assess .bot .rig_text {
+        margin: 5px 1px 1px 5px;
+        width: 68%;
+        float: left;
+    }
+
+    #myinfo .tou {
+        width: 70px;
+        height: 70px;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin: 30px 10px 10px 42%;
+        position: absolute;
+    }
+
+    #sort .pro {
+        height: 180px;
+        margin: 3% 3% 3% 5%;
+        width: 155px;
+        float: left;
+    }
+
+    #sort .pro .top_tu {
+        width: 140px;
+        height: 130px;
+        border: 1px solid #e5e5e5;
+        margin: 5px;
+    }
+
+    #sort .cate input {
+        width: 57%;
+        height: 40px;
+        text-indent: 10px;
+        border-radius: 30px;
+        margin: 7px;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    #productes .bot .rig_text {
+        margin: 5px 1px 1px 5px;
+        width: 71%;
+        float: left;
+    }
+
+    #myinfo .tou {
+        width: 70px;
+        height: 70px;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin: 30px 10px 10px 43%;
+        position: absolute;
+    }
+
+    #sort .pro {
+        height: 180px;
+        margin: 5px 4px 5px 4px;
+        width: 130px;
+    }
+
     #sort .pro .top_tu {
         width: 120px;
         height: 130px;
@@ -3284,4 +3377,5 @@ position: absolute;
         margin: 7px;
         color: black;
     }
+
 }

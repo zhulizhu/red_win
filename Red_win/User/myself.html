@@ -12,55 +12,31 @@
             margin: 0;
             padding: 0;
             font-size: 14px;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "微软雅黑";
+            font-family: Consolas, "微软雅黑";
         }
 
-        #myself .head {
-            height: 150px;
-            background: url('../../images/bg_02.png');
-            background-size: 100% 100%;
-            z-index: 101;
-        }
-
-        #myself .head img {
-            width: 100%;
-            height: 150px;
-        }
-
-        .bg-sp {
-            background: url("../../images/bcbcx_03.png");
-            width: 40px;
-            height: 40px;
-            background-size: 100% 100%;
-            color: white;
-            line-height: 35px;
-            text-align: center;
-        }
     </style>
 </head>
 <body>
 <div id="myself">
-    <div class="head"><a href=""><!--<img src="../img/bg_02.png" alt="" />--></a></div>
+    <div class="head"><a href="myinfo.html"><img  class="set" src="../../images/icon-options.png"></a></div>
     <div class="info">
         <div class="one">
             <div class="tu">
                 <img src="../../images/bg_02.png"/>
             </div>
             <div class="mage">
-                <span><a href="">会笑的哈哈</a></span>
-						<span>
-						您当前为尊敬VIP用户
-						</span>
+                <span><a href="" style="margin-left: 6px">会笑的哈哈</a></span>
+                <span class="user">您当前为尊敬vip用户</span>
             </div>
-					<span class="bg-sp" style="position: absolute;right:15px;z-index:101">
-					
+					<span class="bg-sp" style="position: absolute;right:1%;z-index:101">
 					D级</span>
         </div>
         <div class="two">
             <div style="width: 27px;height: 23px;float: left;"><img src="../../images/1.png" style="width: 27px;height: 23px;"/></div>
             <span><a href="">四川省成都市武侯区</a></span>
-            <span style="margin-left: 15px; font-size: 16px;font-weight: bold;"> <a href="">男</a></span>
-            <img src="../../images/16.png" style="width: 25px;height: 30px;margin:1px 10px 1px 10px;"/>
+            <span  class="sex"> <a href="">男</a></span>
+            <img class="open" src="../../images/16.png"/>
         </div>
         <ul>
             <li>
@@ -105,13 +81,14 @@
     <!--info over-->
     <div class="dingdan">
         <div class="tit">
-            <a href=""></a>
-            <div><img src="../../images/22.png" style="width: 25px;height: 25px;float: left;margin-top: 4px;"/></div>
-            <span style="font-size: 16px;font-weight: bold;float: left;margin-top: 7px;margin-left: 15px;">我的订单</span>
+            <a href="all_order.html">
+                <div><img src="../../images/22.png" /></div>
+                <span>我的订单</span>
+            </a>
         </div>
         <ul>
             <li>
-                <a href="pay_money.html">
+                <a href="paid.html">
                     <div>
                         <img src="../../images/7.png"/>
                     </div>
@@ -140,7 +117,7 @@
                 </a>
             </li>
             <li>
-                <a href="product_refund.html">
+                <a href="sales_return.html">
                     <div>
                         <img src="../../images/10.png"/>
                     </div>
@@ -210,34 +187,6 @@
         <!--list over-->
     </div>
     <!--mylist over-->
-    <div class="fot">
-        <ul class="fot_ul">
-            <a href="../Product/index.html">
-                <li class="unbindClick" id="home" value=1>
-                    <img src="../../images/SHOUYE.png" id="img_a" alt="">
-                    首页
-                </li>
-            </a>
-            <a href="../Product/category.html">
-                <li id="feng" class="unbindClick" value=1>
-                    <img src="../../images/khkh_03.png" id="img_b" alt="">
-                    分类
-                </li>
-            </a><a href="../Product/buy_cart.html">
-            <li id="cart" class="unbindClick" value=1>
-                <img src="../../images/hfhfh_15.png" id="img_c" alt="">
-                购物车
-            </li>
-        </a>
-            <a href="javascript:void(0);">
-                <li id="mymy" class="public_fot unbindClick" value=1>
-                    <img src="../../images/hfhfh_17.png" id="img_d" alt="">
-                    个人中心
-                </li>
-            </a>
-        </ul>
-    </div>
-
 </div>
 <!--bottom nav bar-->
 <div style="height:150px;"></div>
@@ -254,7 +203,7 @@
                 <img src="../../images/khkh_03.png" id="img_b" alt="">
                 分类
             </li>
-        </a><a href="buy_cart.html">
+        </a><a href="../Product/buy_cart.html">
         <li id="cart" class="unbindClick" value=1>
             <img src="../../images/hfhfh_15.png" id="img_c" alt="">
             购物车
