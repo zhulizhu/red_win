@@ -1,5 +1,3 @@
-*
-
 @charset "utf-8";
 body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h5, h6, textarea, form, select, fieldset, table, td, div, input {
     list-style: none;
@@ -435,7 +433,7 @@ a {
     right: 0;
 }
 
-.bot .rig_text .logis #delet {
+.bot .rig_text .logis .delet {
     width: 36px;
     height: 30px;
     border: 1px solid #ff0026;
@@ -446,12 +444,12 @@ a {
     color: #ff0026;
 }
 
-.bot .rig_text .logis #delet a {
+.bot .rig_text .logis .delet a {
     color: #ff0026;
     display: block;
 }
 
-#productes .assess #btn_asses {
+#productes .assess .btn_asses {
     width: 60px;
     height: 30px;
     border: 1px solid #ff0026;
@@ -464,12 +462,12 @@ a {
     bottom: 15px;
 }
 
-#productes .assess #btn_asses a {
+#productes .assess .btn_asses a {
     color: #ff0026;
     display: block;
 }
 
-#productes .assess .rig_text #pay_mony {
+#productes .assess .rig_text .pay_mony {
     width: 48px;
     height: 30px;
     border: 1px solid #ff0026;
@@ -481,12 +479,84 @@ a {
     background-color: #ff0026;
 }
 
-#productes .assess .rig_text #pay_mony a {
+#productes .assess .rig_text .pay_mony a {
     color: white;
     display: block;
 }
 
-/* 购物车begin */
+/*物流page*/
+#logistics {
+    width: 100%;
+    height: auto;
+}
+
+#logistics img {
+    width: 100%;
+    height: 7px;
+    padding: 0;
+    margin: -10px 0 1px 0;
+}
+#logistics .text_box{
+    width: 94%;
+    margin-left: 3%;
+}
+#logistics .text_box .cup{
+    margin-top: 12px;
+    font-weight: bold;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #b9b9b9;
+    margin-bottom: 20px;
+}
+#logistics .text_box .cup img{
+    width: 23px;
+    height: auto;
+}
+#logistics .text_box .infor{
+    margin-left: 3%;
+    border-left: 1px solid #c1c1c1;
+}
+#logistics .text_box .infor .text{
+    margin-left: 24px;
+    margin-bottom: 88px;
+    position: relative;
+}
+#logistics .text_box .infor .text .ico{
+    position: absolute;
+    top: 0;
+    left: -11%;
+    width: 21px;
+    height: 21px;
+}
+#logistics .text_box .infor .text .ico1{
+    width: 15px !important;
+    height: 15px !important;
+    left: -10%;
+
+}
+#logistics .text_box .infor .text p{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#logistics .text_box .infor .text .text_p{
+    color: #ff0026;
+}
+#logistics .text_box .infor .text .pic_tex{
+    overflow: hidden;
+}
+#logistics .text_box .infor .text .pic_tex img{
+width: 26px;
+    height: 26px;
+    float:left;
+    display: block;
+    margin-top: 1px;
+}
+#logistics .text_box .infor .text .pic_tex span{
+    display: block;
+    float: left;
+    margin-top: 4px;
+    color: #a2a2a2;
+}
+    /* 购物车begin */
 #my_buycart {
     width: 100%;
     height: 100%;
@@ -860,10 +930,11 @@ a {
     font-size: 16px;
     font-weight: bold;
 }
+
 #myself .info .two .open {
     width: 25px;
     height: 30px;
-    margin:1px 10px 1px 10px;
+    margin: 1px 10px 1px 10px;
 }
 
 #myself .info .two span:nth-child(2) {
@@ -886,25 +957,29 @@ a {
     float: left;
     margin-top: 12px;
 }
-#myself .info .mage img{
+
+#myself .info .mage img {
     width: 12px;
     height: 12px;
     position: absolute;
     top: 10px;
 }
+
 #myself .head {
     height: 150px;
     background: url('../images/bg_02.png');
     background-size: 100% 100%;
     z-index: 101;
 }
-#myself .head .set{
+
+#myself .head .set {
     width: 26px;
     height: 26px;
     position: absolute;
     right: 3%;
     top: 8px;
 }
+
 #myself .head img {
     width: 100%;
     height: 150px;
@@ -1023,18 +1098,21 @@ a {
     margin-top: 7px;
     margin-left: 15px;
 }
-#myself .dingdan .tit .look{
+
+#myself .dingdan .tit .look {
     float: right;
     color: #b2b2b2;
     font-weight: normal;
     margin-right: 3%;
 }
-#myself .dingdan .tit .next{
-    float:none;
+
+#myself .dingdan .tit .next {
+    float: none;
     line-height: 20px;
     font-size: 25px;
     color: #969696;
 }
+
 #myself .dingdan .tit a div img {
     width: 25px;
     height: 25px;
@@ -1159,6 +1237,7 @@ a {
     border-top: 1px solid #d0d0d0;
     margin-top: 18px;
 }
+
 #product_refund .plo p {
     height: 46px;
     width: 94%;
@@ -1168,9 +1247,11 @@ a {
     font-weight: bold;
     border-bottom: 1px solid #d0d0d0;
 }
+
 #product_refund .plo p span {
     color: #a2a2a2;
 }
+
 #product_refund .plo .much {
     width: 94%;
     height: 46px;
@@ -1485,6 +1566,7 @@ a {
     margin-right: 8px;
     display: block
 }
+
 #sort .cate {
     width: 100%;
     height: 55px;
@@ -1811,13 +1893,15 @@ a:visited {
     height: 300px;
     width: 90%;
     margin-left: 5%;
-    border-top:1px solid #242120 ;
+    border-top: 1px solid #242120;
 }
-#product_detail .lei div{
-    width:50%;
-    border-right:1px solid #242120;
-    height:30px;
+
+#product_detail .lei div {
+    width: 50%;
+    border-right: 1px solid #242120;
+    height: 30px;
 }
+
 #product_detail .lei a {
     color: #666666 !important;
 }
@@ -2992,11 +3076,6 @@ a:visited {
     margin: 0;
 }
 
-/* #addres_defaul .address_delet>span{
-	padding: 1px 10px 1px 10px;
-	color: black;
-
-} */
 #addres_defaul span {
     font-weight: bold;
 }
@@ -3318,10 +3397,11 @@ a:visited {
         font-size: 16px;
         font-weight: bold;
     }
+
     #myself .info .two .open {
         width: 25px;
         height: 30px;
-        margin:1px 4px 1px 10px;
+        margin: 1px 4px 1px 10px;
     }
 
     #myself .info .mage span:nth-child(1) {
@@ -3333,6 +3413,19 @@ a:visited {
         margin: 6px 1px 1px 1px;
 
     }
+    #logistics .text_box .infor .text .ico {
+        position: absolute;
+        top: 0;
+        left: -13%;
+        width: 21px;
+        height: 21px;
+    }
+    #logistics .text_box .infor .text .ico1{
+        position: absolute;
+        top: 0;
+        left: -12%;
+    }
+
 }
 
 @media screen and (min-width: 375px) {
@@ -3413,6 +3506,18 @@ a:visited {
         border-radius: 30px;
         margin: 7px;
         color: black;
+    }
+    #logistics .text_box .infor .text .ico {
+        position: absolute;
+        top: 0;
+        left: -10%;
+        width: 21px;
+        height: 21px;
+    }
+    #logistics .text_box .infor .text .ico1{
+        position: absolute;
+        top: 0;
+        left: -9%;
     }
 
 }
