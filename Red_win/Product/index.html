@@ -72,8 +72,7 @@
     <div class="con">
         <a href="recommen.html">
             <div class="lef">
-                <a href="product_detail.html"><img src="../../images/8e66d951ef19a694fd34c7baacbe5f62.jpg" alt=""></a>
-
+                <a href="product_detail.html"><img src="../../images/hdhfdhh_09.png" alt=""></a>
                 <div class="dat">
                     <div id="timess"></div>
                     <div id="times"></div>
@@ -100,10 +99,11 @@
 
     <div class="tt">
         <div>
-            <span><a href="../Article/little_tips.html" style="color: #100f0f">小贴士</a></span>
-		    <span><img onclick="collect()" id="colle" src="../../images/dhfdhfh_48.png" alt="">22</span>
+            <span><button><a href="../Article/little_tips.html">小贴士</a></button></span>
+            <span><img onclick="collect()" id="colle" src="../../images/dhfdhfh_48.png" alt="">22</span>
         </div>
-        <p style="text-indent: 2em;">有的人喜欢喝啤酒，冰镇过后配上下饭的湘菜，一个字，爽！有的人爱品葡萄酒，钟情那香醇后的缱绻余味会有所不同。今天，红酒百科全书将带来一些葡萄酒入门小常识，非常实用，值得收藏。</p>
+        <p style="text-indent: 2em;">
+            有的人喜欢喝啤酒，冰镇过后配上下饭的湘菜，一个字，爽！有的人爱品葡萄酒，钟情那香醇后的缱绻余味会有所不同。今天，红酒百科全书将带来一些葡萄酒入门小常识，非常实用，值得收藏。</p>
     </div>
     <div style="height:150px;"></div>
     <div class="fot">
@@ -145,17 +145,21 @@
     document.getElementById("times").innerHTML = ss;
     console.log(x + ss);
     //点击收藏
-    var onOff=true;
-    function collect(){
-        var colle=document.getElementById("colle");
-        if(onOff){
-            colle.src="../../images/jfgjgfjs_05.png";
-            onOff=false;
-        }else{
-            colle.src="../../images/dhfdhfh_48.png";
-            onOff=true;
+    var onOff = true;
+    function collect() {
+        var colle = document.getElementById("colle");
+        if (onOff) {
+            colle.src = "../../images/jfgjgfjs_05.png";
+            onOff = false;
+        } else {
+            colle.src = "../../images/dhfdhfh_48.png";
+            onOff = true;
         }
     }
+    //轮播
+    $("#myCarousel").carousel({
+        interval: 2000
+    });
 
 </script>
 </html>

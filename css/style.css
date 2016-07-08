@@ -220,15 +220,29 @@ h5 a {
 }
 
 #home_page .con .rig > button {
-    width: 50px;
+     width: 50px;
+     height: 25px;
+     border: 1px solid #ff0026;
+     border-radius: 7px;
+     float: right;
+     text-align: center;
+     line-height: 25px;
+     color: #ff0026;
+     background-color: white;
+ }
+#home_page .tt button {
+    width: 70px;
     height: 25px;
     border: 1px solid #ff0026;
     border-radius: 7px;
-    float: right;
     text-align: center;
     line-height: 25px;
     color: #ff0026;
     background-color: white;
+}
+#home_page .tt button a{
+    text-decoration: none;
+    color: #ff0026;
 
 }
 
