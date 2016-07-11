@@ -19,6 +19,15 @@
             font-size: 14px;
             font-family: Consolas, '微软雅黑';
         }
+        /*.active{*/
+            /*background-color: black;*/
+        /*}*/
+        .carousel-indicators .active{
+            background-color: #ff0026;
+        }
+        .carousel-indicators li{
+            border:1px solid #ff0026;
+        }
     </style>
 </head>
 <body>
@@ -68,33 +77,94 @@
             </a>
         </ul>
     </div>
+    <!--轮播-->
+    <div id="myCarousel" class="carousel slide con">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="banner-box item active" style="width: 100%;height: 100%;overflow: hidden;">
+                    <div class="lef">
+                        <a href="product_detail.html"><img src="../../images/hdhfdhh_09.png" alt=""></a>
 
-    <div class="con">
-        <a href="recommen.html">
-            <div class="lef">
-                <a href="product_detail.html"><img src="../../images/hdhfdhh_09.png" alt=""></a>
-                <div class="dat">
-                    <div id="timess"></div>
-                    <div id="times"></div>
+                        <div class="dat">
+                            <div class="timess"></div>
+                            <div class="times"></div>
+                        </div>
+                    </div>
+                    <div class="rig">
+                        <h4>王宇贝纳干红葡萄酒红葡萄酒</h4>
+
+                        <p style="color:black !important;">地区：<a href="">中国</a></p>
+
+                        <p>种类：<a href="">加强型</a></p>
+
+                        <p>色泽：<a href="">深红</a></p>
+
+                        <p>年份：<a href="">深红</a></p>
+
+                        <p>酒庄：<a href="">中国的卡卡</a></p>
+
+                        <p>酒精度：<a href="">深红</a></p>
+                        <button><a href="product_list.html">更多</a></button>
+                    </div>
+                </div>
+                <div class="banner-box item" style="width: 100%;height: 100%;overflow: hidden;">
+                    <div class="lef">
+                        <a href="product_detail.html"><img src="../../images/hdhfdhh_09.png" alt=""></a>
+
+                        <div class="dat">
+                            <div class="timess"></div>
+                            <div class="times"></div>
+                        </div>
+                    </div>
+                    <div class="rig">
+                        <h4>王宇贝纳干红葡萄酒红葡萄酒</h4>
+
+                        <p style="color:black !important;">地区：<a href="">中国</a></p>
+
+                        <p>种类：<a href="">加强型</a></p>
+
+                        <p>色泽：<a href="">深红</a></p>
+
+                        <p>年份：<a href="">深红</a></p>
+
+                        <p>酒庄：<a href="">中国的卡卡</a></p>
+
+                        <p>酒精度：<a href="">深红</a></p>
+                        <button><a href="product_list.html">更多</a></button>
+                    </div>
+                </div>
+                <div class="banner-box item" style="width: 100%;height: 100%;overflow: hidden;">
+                    <div class="lef">
+                        <a href="product_detail.html"><img src="../../images/hdhfdhh_09.png" alt=""></a>
+
+                        <div class="dat">
+                            <div class="timess"></div>
+                            <div class="times"></div>
+                        </div>
+                    </div>
+                    <div class="rig">
+                        <h4>王宇贝纳干红葡萄酒红葡萄酒</h4>
+
+                        <p style="color:black !important;">地区：<a href="">中国</a></p>
+
+                        <p>种类：<a href="">加强型</a></p>
+
+                        <p>色泽：<a href="">深红</a></p>
+
+                        <p>年份：<a href="">深红</a></p>
+
+                        <p>酒庄：<a href="">中国的卡卡</a></p>
+
+                        <p>酒精度：<a href="">深红</a></p>
+                        <button><a href="product_list.html">更多</a></button>
+                    </div>
                 </div>
             </div>
-            <div class="rig">
-                <h4>王宇贝纳干红葡萄酒红葡萄酒</h4>
 
-                <p style="color:black !important;">地区：<a href="">中国</a></p>
-
-                <p>种类：<a href="">加强型</a></p>
-
-                <p>色泽：<a href="">深红</a></p>
-
-                <p>年份：<a href="">深红</a></p>
-
-                <p>酒庄：<a href="">中国的卡卡</a></p>
-
-                <p>酒精度：<a href="">深红</a></p>
-                <button><a href="product_list.html">更多</a></button>
-            </div>
-        </a>
     </div>
 
     <div class="tt">
@@ -141,8 +211,12 @@
     console.log(month + "");
     var x = myDate.getFullYear() + "-" + month;
     var ss = myDate.getDate();
-    document.getElementById("timess").innerHTML = x;
-    document.getElementById("times").innerHTML = ss;
+    document.getElementsByClassName("timess")[0].innerHTML = x;
+    document.getElementsByClassName("times")[0].innerHTML = ss;
+    document.getElementsByClassName("timess")[1].innerHTML = x;
+    document.getElementsByClassName("times")[1].innerHTML = ss;
+    document.getElementsByClassName("timess")[2].innerHTML = x;
+    document.getElementsByClassName("times")[2].innerHTML = ss;
     console.log(x + ss);
     //点击收藏
     var onOff = true;
@@ -160,6 +234,16 @@
     $("#myCarousel").carousel({
         interval: 2000
     });
+//    $(".ol li").click(function(){
+//            $("#myCarousel").carousel('pause');
+//            onOff = false;
+//    });
+//    $("#myCarousel").onmousemove(function(){
+//        $("#myCarousel").carousel('pause');
+//    })
+//    $("#myCarousel").onmouseout(function(){
+//        $("#myCarousel").carousel('cycle');
+//    })
 
 </script>
 </html>

@@ -15,6 +15,7 @@
             font-family: Consolas, '微软雅黑';
         }
     </style>
+    <!--点击首页快速导航获取参数值-->
     <script type="text/javascript">
         function getParameter(param)
         {
@@ -30,7 +31,7 @@
             return query.substring(iStart, iEnd);//获取第二个参数的值
         }
         function init() {
-            var param = getParameter("id");
+            var param = getParameter("id");//获取到id后面的值 (one,nine...)
             if(param=="one"){
                 $("#one").addClass('public_pop').parent().siblings().children().removeClass('public_pop');
                 $(".country").show();
@@ -412,8 +413,6 @@
 </body>
 <script type="text/javascript">
     $(document).ready(function () {
-        //点击首页快速导航获取参数值
-
         $(".pop_cate").show();
         $(".pop_rig").hide();
         $(".country").show();
