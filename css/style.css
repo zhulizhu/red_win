@@ -1904,16 +1904,33 @@ a:visited {
 }
 
 #product_detail .lei {
-    height: 300px;
+    height: 400px;
     width: 90%;
     margin-left: 5%;
     border-top: 1px solid #242120;
+    position: relative;
 }
 
-#product_detail .lei div {
+#product_detail .lei .wid {
     width: 50%;
     border-right: 1px solid #242120;
     height: 30px;
+}
+#product_detail .lei .share{
+    position: absolute;
+    top:10%;
+    right: 0;
+    width: 28px;
+    height: auto;
+}
+#product_detail .lei .share img{
+    display: block;
+}
+#product_detail .lei .share span{
+    display: block;
+    color: #242120;
+    margin-left: 0;
+    font-size: 14px !important;
 }
 
 #product_detail .lei a {
@@ -1925,7 +1942,7 @@ a:visited {
     color: #ff0026;
     height: 50px;
     overflow: hidden;
-    font-weight: bold;
+    font-size: 16px;
 
 }
 
@@ -1936,7 +1953,8 @@ a:visited {
     overflow: hidden;
     margin-left: 20px;
     color: #ff0026;
-    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px!important;
 }
 
 #product_detail .pop_buycart {
@@ -2044,7 +2062,9 @@ a:visited {
     height: auto;
     border: 1px solid #e5e5e5;
 }
-
+#product_detail .alenx .move{
+    display: none;
+}
 #product_detail .alenx span {
     padding-left: 3%;
 }

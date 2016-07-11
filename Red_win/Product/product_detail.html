@@ -18,7 +18,6 @@
             font-family: Consolas, '微软雅黑';
             font-size: 14px;
         }
-
         #product_detail .detai {
             max-width: 100%;
             height: 250px;
@@ -32,18 +31,23 @@
 <body>
 <div id="product_detail">
     <div class="detai" id="bann">
-        <a href=""><img src="../../images/hldgd_03.png" alt=""></a>
+        <a href="#"><img src="../../images/hldgd_03.png"></a>
     </div>
     <div class="tit">
         <img src="../../images/hshjdsjha_02.png" alt="">
         <h4 style="font-size: 18px">木桐嘉棣珍藏圣埃米利永红葡萄酒</h4>
         <h4 style="font-family: 'Microsoft YaHei';font-size: 12px">Reserve Mouton Cadet St.Emillon Red</h4>
-        <span><a href="" style="font-size: 16px;margin-left: 14%">￥345</a></span>
+        <span><a href="" style="font-size: 20px;margin-left: 14%">￥345</a></span>
         <span><a href="">木桐庄园</a></span>
-
     </div>
     <div class="lei">
-        <div></div>
+        <div class="wid"></div>
+        <div class="share">
+            <a href="#">
+                <img src="../../images/33.png">
+                <span>分享</span>
+            </a>
+        </div>
 
         <span>年&nbsp;&nbsp;&nbsp;&nbsp;份：<a href="">2015-23-57</a></span>
         <span>类&nbsp;&nbsp;&nbsp;&nbsp;别：<a href="">填填</a></span>
@@ -55,34 +59,43 @@
         <span>净含量：<a href="">中国</a></span>
         <span>酒精度：<a href="">填填</a></span>
 
-        <p>葡萄种类：<a href="">80%的水家电话公司根据规划设计个539…… 赶紧睡觉呢机构收到控股 国家大事</a></p>
+        <p>葡萄种类：<a href="">葡萄品种：80%赛芙蓉(Semillon),15%长相思(Sauvignon Bl anc),5%密斯卡岱(Musc</a></p>
         </br>
         <p>酒评:<a href="">官方的一句话来评价红酒的东东官方的一句话来评价红酒的东东官方的一句话来评价红酒的东东</a></p></br>
     </div>
     <div class="alenx">
         <span>评价<a href="">(200)</a></span>
-        <a href="">
-            <div class="tit_bar"><img src="../../images/hfjrjrye_02.png" alt=""> Alenx</div>
-        </a>
 
-        <p>真的横不错，是真的，是真的，是真的，是真的，重要的事情说三遍。。。</p>
-        <a href="">
-            <div class="tit_bar"><img src="../../images/hfjrjrye_02.png" alt=""> Alenx</div>
-        </a>
-
-        <p>真的横不错，是真的，是真的，是真的，是真的，重要的事情说三遍。。。</p>
-
+        <div class="discuss">
+            <div>
+                <div class="tit_bar"><img src="../../images/hfjrjrye_02.png" alt=""> Alenx</div>
+                <p>真的横不错，是真的，是真的，是真的，是真的，重要的事情说三遍。。。</p>
+            </div>
+            <div class="move">
+                <div>
+                    <div class="tit_bar"><img src="../../images/hfjrjrye_02.png" alt=""> Alenx</div>
+                    <p>真的横不错，是真的，是真的，是真的，是真的，重要的事情说三遍。。。</p>
+                </div>
+                <div>
+                    <div class="tit_bar"><img src="../../images/hfjrjrye_02.png" alt=""> Alenx</div>
+                    <p>真的横不错，是真的，是真的，是真的，是真的，重要的事情说三遍。。。</p>
+                </div>
+                <div>
+                    <div class="tit_bar"><img src="../../images/hfjrjrye_02.png" alt=""> Alenx</div>
+                    <p>真的横不错，是真的，是真的，是真的，是真的，重要的事情说三遍。。。</p>
+                </div>
+                <div>
+                    <div class="tit_bar"><img src="../../images/hfjrjrye_02.png" alt=""> Alenx</div>
+                    <p>真的横不错，是真的，是真的，是真的，是真的，重要的事情说三遍。。。</p>
+                </div>
+            </div>
+        </div>
         <p>他们也评价了：
-            <a href=""><img src="../../images/hfjrjrye_02.png" alt=""></a><a href=""><img
-                    src="../../images/hfjrjrye_02.png"
-                    alt=""></a><a
-                    href=""><img src="../../images/hfjrjrye_02.png" alt=""></a><a href=""><img
-                    src="../../images/hfjrjrye_02.png" alt=""></a>
-
+            <a href=""><img src="../../images/hfjrjrye_02.png" alt=""></a>
+            <a href=""><img src="../../images/hfjrjrye_02.png" alt=""></a>
+            <a href=""><img src="../../images/hfjrjrye_02.png" alt=""></a>
         </p>
-        <a href="">
-            <button>查看全部评论</button>
-        </a>
+        <button class="flip">查看全部评论</button>
     </div>
     <div class="pop_buycart">
         <div class="detil">
@@ -117,10 +130,12 @@
     </div>
     <div class="bom">
         <a href="javascript:;"><a href="../User/pay_submit.html"><span id="pay_money" onclick="onPay()">立即购买</span></a></a>
-        <a href="javascript:;"><a href="../User/add_cart.html"><span id="li_buy" onclick="shopCart()">加入购物车</span></a></a>
+        <a href="javascript:;"><a href="../User/add_cart.html"><span id="li_buy"
+                                                                     onclick="shopCart()">加入购物车</span></a></a>
     </div>
     <div class="top"><a href="#bann"><img src="../../images/top.png"></a></div>
     <img src="../../images/hdsnfjrruu_02.png" alt="">
+
     <div class="vessel">
         <div class="title">酒具推荐</div>
         <div><a href=""><img src="../../images/ghlsghds_02.png" alt=""></a></div>
@@ -153,6 +168,10 @@
 </div>
 <script type="text/javascript">
     $(document).ready(function ($) {
+        //查看全部评论
+        $(".flip").click(function () {
+            $(".move").slideToggle(500);
+        });
         //加入购物车和购买按钮背景颜色切换
         var pay_money = document.getElementById("pay_money");
         var li_buy = document.getElementById("li_buy");
@@ -167,15 +186,6 @@
             pay_money.style.backgroundColor = "";
         }
 
-//        pay_money.onclick(function(){
-//            alert(1);
-//            this.style.backgroundColor="red";
-//            li_buy.style.backgroundColor="";
-//        });
-//        li_buy.onclick(function(){
-//            this.style.backgroundColor="red";
-//            pay_money.style.backgroundColor="";
-//        });
         /*加入购物车js*/
         $("#li_buy").click(function () {
             $(".pop_buycart").show(300);
