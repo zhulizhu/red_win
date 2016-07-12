@@ -4,7 +4,7 @@ body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h5, h6, textarea, form, select, fie
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: Consolas, '微软雅黑';
+    font-family: Consolas, '微软雅黑";
 }
 
 h1, h2, h3, h5, h6, span, a, em, p {
@@ -170,7 +170,7 @@ h5 a {
     border-radius: 5px;
 }
 
-#home_page .con .lef .dat .timess {
+#home_page .con .lef .dat .tim {
     width: 50px;
     height: 25px;
     background-color: #ff0026;
@@ -313,39 +313,39 @@ a {
 
 /* over */
 /* 支付页面开始 */
-#productes {
+#product {
     width: 100%;
     height: auto;
     padding: 0;
     margin: 0;
 }
 
-#productes .assess {
+#product .assess {
     /* margin-top: 20px; */
     width: 100%;
     height: 215px;
     border-bottom: 3px solid #e5e5e5;
 }
 
-#productes .assess .hed {
+#product .assess .hed {
     height: 50px;
     color: #999999;
     line-height: 20px;
     border-bottom: 1px solid #E6E6E6;
 }
 
-#productes .assess .hed span {
+#product .assess .hed span {
     float: right;
     line-height: 50px;
     margin-right: 10px;
 }
 
-#productes .assess .hed span > img {
+#product .assess .hed span > img {
     width: 25px;
     height: 25px;
 }
 
-#productes .assess .hed img {
+#product .assess .hed img {
     width: 27px;
     height: 34px;
     margin: 4px 5px 4px 15px;
@@ -367,8 +367,9 @@ a {
 }
 
 .bot .lef_tu img {
-    width: 100%;
-    height: 100%;
+   max-width: 100%;
+    height: auto;
+    margin-top: 26px;
 }
 
 .bot .rig_text {
@@ -463,7 +464,7 @@ a {
     display: block;
 }
 
-#productes .assess .btn_asses {
+#product .assess .btn_asses {
     width: 60px;
     height: 30px;
     border: 1px solid #ff0026;
@@ -476,12 +477,12 @@ a {
     bottom: 15px;
 }
 
-#productes .assess .btn_asses a {
+#product .assess .btn_asses a {
     color: #ff0026;
     display: block;
 }
 
-#productes .assess .rig_text .pay_mony {
+#product .assess .rig_text .pay_mony {
     width: 48px;
     height: 30px;
     border: 1px solid #ff0026;
@@ -493,7 +494,7 @@ a {
     background-color: #ff0026;
 }
 
-#productes .assess .rig_text .pay_mony a {
+#product .assess .rig_text .pay_mony a {
     color: white;
     display: block;
 }
@@ -647,8 +648,8 @@ width: 26px;
 }
 
 #my_buycart section > div > div:nth-child(2) > img {
-    width: 90%;
-    height: 85%;
+    max-width: 100%;
+    height: auto;
     margin: 10% 5% 10% 5%;
 
     border-radius: 4px;
@@ -3067,8 +3068,8 @@ a:visited {
 }
 
 #product_list .pro_li > div:nth-child(1) img {
-    width: 120px;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
     vertical-align: middle;
 }
 
@@ -3399,7 +3400,7 @@ a:visited {
 
 /* 收货地址over */
 @media screen and (max-width: 320px) {
-    #productes .assess .bot .rig_text .mone span:nth-of-type(2) {
+    #product .assess .bot .rig_text .mone span:nth-of-type(2) {
         color: #ff0026;
         width: 37px;
         height: 25px;
@@ -3468,9 +3469,9 @@ a:visited {
 }
 
 @media screen and (min-width: 375px) {
-    /*#productes .assess .rig_text #delet {
+    /*#product .assess .rig_text #delet {
         width: 47px; height: 30px; border: 1px solid red; line-height: 30px; text-align: center; float: left; margin: 20px 1px 0px 7px; color: red; }*/
-    #productes .assess .bot .rig_text {
+    #product .assess .bot .rig_text {
         margin: 5px 1px 1px 5px;
         width: 68%;
         float: left;
@@ -3510,7 +3511,7 @@ a:visited {
 }
 
 @media screen and (min-width: 414px) {
-    #productes .bot .rig_text {
+    #product .bot .rig_text {
         margin: 5px 1px 1px 5px;
         width: 71%;
         float: left;
